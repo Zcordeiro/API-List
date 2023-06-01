@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: lightgrey;
+  background: rgb(153, 195, 190);
 }
 
  /* Hamburger Nav menu */
@@ -44,7 +44,7 @@ body {
   width: 250px;
   padding: 1rem;
   border-radius: 16px;
-  background: #8d8798b0;
+  background: #85a4aab0;
   box-shadow: -1rem 0 3rem #00000067;
   transition: .2s;
   font-family: 'Inter', sans-serif;
@@ -79,4 +79,15 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.apiListCard {
+  background-color: #85a4aab0;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.apiListCard:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  color: white;
 }
