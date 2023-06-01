@@ -1,5 +1,5 @@
 # API-List
-A list of API's for me to get inspiration from while coding.
+A list of API's for me to get inspiration from while coding. Lots of categories this list has everything from pet pictures to wall street API's to help build new projects and utilize new tools. 
 
 ---
 
@@ -33,6 +33,8 @@ If you would like to contribute to this project, feel free to fork the repo and 
 
 ## Screenshot of finished page
 
+![screenshot of published page](./public/images/screenshots/screenshot1.png)
+![screenshot2 of published page](./public/images/screenshots/screenshot2.png)
 
 
 ---
