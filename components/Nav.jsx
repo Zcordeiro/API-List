@@ -14,11 +14,12 @@ const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between bg-slate-800/50 w-full">
+    <div className="flex items-center justify-between bg-gradient-to-r from-green-400 to-blue-500 w-full">
       <Link href='/' className='text-2xl font-bold text-center'>
-        <img className="w-32 h-32" src="/images/logo/mainLogo.png" alt="ZC Logo" />
+        <img className="w-32 h-32" src="/images/logo/mainLogo.png" alt="API Logo" />
       </Link>
       <nav>
+        {/* This is the mobile nav/hamburger menu for smaller screens. */}
         <section className="MOBILE-MENU flex lg:hidden">
           <div
             className="HAMBURGER-ICON space-y-2 m-10"
@@ -52,37 +53,38 @@ const Nav = () => {
               <a href="/">Home</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="/projects">Projects</a>
+              <a href="/browse">Browse</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About</a>
+                <a href="/categories">Categories</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/blog">Blog</a>
+                <a href="https://github.com/Zcordeiro/API-List" target="_blank">Github</a>
               </li>
             </ul>
           </div>
         </section>
 
+        {/* This is the desktop nav for larger screens. */}
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex mr-10">
           <li>
-            <Link href="/" className={`p-3 hover:bg-slate-300 text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
+            <Link href="/" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="/projects" className={`p-3 hover:bg-slate-300 text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              Projects
+            <Link href="/browse" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
+              Browse
             </Link>
           </li>
           <li>
-            <Link href="/about" className={`p-3 hover:bg-slate-300 text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              About
+            <Link href="/categories" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
+              Categories
             </Link>
           </li>
           <li>
-            <Link href="/blog" className={`p-3 hover:bg-slate-300 text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              Blog
+            <Link href="https://github.com/Zcordeiro/API-List" target="_blank" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
+              Github
             </Link>
           </li>
         </ul>
