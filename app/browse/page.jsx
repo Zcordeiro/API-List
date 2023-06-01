@@ -1,3 +1,4 @@
+
 import ApiCard from "@/components/ApiCard";
 
 const browse = async () => {
@@ -12,11 +13,7 @@ const browse = async () => {
 
   return (
     <>
-    <div>
-      <h1 className="text-center text-6xl font-bold italic underline text-blue-900 m-3">
-        All Api's By Category
-      </h1>
-    </div>
+ 
 
     {uniqueCategories.map((category) => (
       <div key={category}>

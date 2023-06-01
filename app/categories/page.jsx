@@ -11,10 +11,10 @@ const categories = async () => {
   return (
     <>
       <div>
-        <h1 className="text-center text-6xl font-bold italic underline text-blue-900 m-3">Categories</h1>
+        
         <div className="flex flex-wrap align-center justify-evenly">
           {uniqueCategories.map((category) => {
-            const categoryName = category.replace(/\s+/g, "");
+            const categoryName = category.replace(/\s+/g, "-");
             return (
               <div className="m-2">
                 <a href={`/categories/${categoryName}`}>
