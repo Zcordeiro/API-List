@@ -14,7 +14,7 @@ const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between bg-gradient-to-r from-green-400 to-blue-500 w-full">
+    <div className="flex items-center justify-evenly bg-slate-400/50 w-full">
       <Link href='/' className='text-2xl font-bold text-center'>
         <img className="w-32 h-32" src="/images/logo/mainLogo.png" alt="API Logo" />
       </Link>
@@ -68,23 +68,23 @@ const Nav = () => {
         {/* This is the desktop nav for larger screens. */}
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex mr-10">
           <li>
-            <Link href="/" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              Home
+            <Link href="/" className={`p-3 hover:text-3xl hover:font-bold text-white hover:text-blue-800 rounded-3xl m-4 text-2xl ${lato.className}`}>
+              home
             </Link>
           </li>
           <li>
-            <Link href="/browse" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              Browse
+            <Link href="/browse" className={`p-3 hover:text-3xl hover:font-bold text-white hover:text-blue-800 rounded-3xl m-4 text-2xl ${lato.className}`}>
+              browse
             </Link>
           </li>
           <li>
-            <Link href="/categories" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              Categories
+            <Link href="/categories" className={`p-3 hover:text-3xl hover:font-bold text-white hover:text-blue-800 rounded-3xl m-4 text-2xl ${lato.className}`}>
+              categories
             </Link>
           </li>
           <li>
-            <Link href="https://github.com/Zcordeiro/API-List" target="_blank" className={`p-3 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 hover:font-bold text-white hover:text-black rounded-3xl m-4 text-2xl ${lato.className}`}>
-              Github
+            <Link href="https://github.com/Zcordeiro/API-List" target="_blank" className={`p-3 hover:text-3xl hover:font-bold text-white hover:text-blue-800 rounded-3xl m-4 text-2xl ${lato.className}`}>
+              github
             </Link>
           </li>
         </ul>

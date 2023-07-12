@@ -5,7 +5,7 @@ const CategoryCard = ({ name }) => {
           <header className="categoryCard-header">
             <span className="title">{name}</span>
           </header>
-          <div className="text-center text-black italic text-sm">See Available API's</div>
+          <div className="text-center text-slate-300 italic text-sm">See Available API's</div>
         </div>
       </div>
     );

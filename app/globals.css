@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background: rgb(153, 195, 190);
-}
+
 
  /* Hamburger Nav menu */
  .hideMenuNav {
@@ -44,7 +41,7 @@ body {
   width: 250px;
   padding: 1rem;
   border-radius: 16px;
-  background: #85a4aab0;
+  background: conic-gradient(at 0% 0%, rgb(199, 210, 254), rgb(0, 56, 134), rgb(199, 210, 254));
   box-shadow: -1rem 0 3rem #00000067;
   transition: .2s;
   font-family: 'Inter', sans-serif;
@@ -56,7 +53,7 @@ body {
 
 .categoryCard-header {
   margin-bottom: auto;
-  color: darkblue;
+  color:  rgb(209, 213, 219);
 }
 
 .categoryCard-header p {
@@ -82,12 +79,11 @@ body {
 }
 
 .apiListCard {
-  background-color: #85a4aab0;
   border-radius: 16px;
   text-align: center;
 }
 
 .apiListCard:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
-  color: white;
+  background: conic-gradient(at 0% 0%, rgb(199, 210, 254), rgb(0, 56, 134), rgb(199, 210, 254));
+  color: whitesmoke;
 }

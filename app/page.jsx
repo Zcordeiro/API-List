@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-10">
-      <h1 className="text-4xl font-bold text-center m-5">
+    <main className="flex flex-col items-center p-5 bg-gradient-to-r from-slate-300 to-slate-400 h-screen">
+      <h1 className="text-4xl font-bold text-center">
         Welcome to my API List! This is a list of public APIs that I have found
         and wanted to use to find inspiration for projects. I hope you can also
         find this list useful!
